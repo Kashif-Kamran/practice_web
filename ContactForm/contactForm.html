@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./contactForm.css">
+
+
+</head>
+
+<body>
+    <form action="" class="background container">
+        <h1 class="main_heading">Registraction From</h1>
+        <hr>
+        <h2 class="domain_heading">Leader Info</h2>
+        <div class="Leader_Info">
+            <p>Leader Name: <input type="text" name="name" id="name" placeholder="Enter Name"></p>
+            <p>Country: <input type="text" name="country" id="country" placeHolder="Enter Country Name"></p>
+            <p>Email Address: <input type="email" name="LeaderEmail" id="LeaderEmail"
+                    placeholder="examplemail@gmail.com"></p>
+        </div>
+        <hr>
+        <!--
+                 Game Information
+         -->
+        <h2 class="domain_heading">Game Info</h2>
+        <div class="gameInfo">
+
+            <p> Game Info:
+                <select name="gameName" id="gameName">
+                    <option value="">--Select Game--</option>
+                    <option value="pubg">PUBG</option>
+                    <option value="cs">Counter Strike</option>
+                    <option value="volrent">Volrent</option>
+                    <option value="dota">DOTA</option>
+                    <option value="cod">Call Of Duty</option>
+                    <option value="takken7">Takken7</option>
+                </select>
+            </p>
+
+            <p>Server Info:
+                <select name="server" id="server">
+                    <option value="">--Select Server--</option>
+                    <option value="pakistan">Pakistan</option>
+                    <option value="india">India</option>
+                    <option value="china">China</option>
+                    <option value="usa">USA</option>
+                    <option value="brazil">Brazil</option>
+                </select>
+            </p>
+        </div>
+        <div class="teamInfo">
+            <hr>
+            <h2 class="domain_heading">Team Info</h2>
+            <ul>
+                <li>The maximum limit of Team Members is 4 (Including Team Leader).</li>
+                <li>Team Member cannot be changed between the tornament.</li>
+            </ul>
+            <h3>Players Information</h3>
+            <p>Player# 1 : <input type="text" name="player1" id="player1" placeholder="Enter Name"></p>
+            <p>Player# 2 : <input type="text" name="player2" id="player2" placeholder="Enter Name"></p>
+            <p>Player# 3 : <input type="text" name="player3" id="player3" placeholder="Enter Name"></p>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
