@@ -8,11 +8,7 @@ img{
     border-color:red;
     border-radius: 5px;
 }
-h1{
-    position: absolute;
-    margin-left: 33%;
-    margin-top: 23%;
-}
+
 /* Online serarch for clip path generator and then get parmetters from their 
 */
 .clip_path{
@@ -37,5 +33,5 @@ h1{
     box-sizing: content-box;
 }
 .border_box{
-    box-sizing: border-box;
+    box-sizing: b;
 }
