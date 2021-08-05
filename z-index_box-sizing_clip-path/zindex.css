@@ -1,0 +1,45 @@
+div#layer1{
+    position:absolute;
+    z-index:3;
+    /* top and left spacing */
+    top:50px ;
+    left: 50px;
+
+    height: 200px;
+    width:400px;
+    background-color: green;
+    border:4px;
+    border-color:red;
+    border-style: solid;
+    text-align: center;
+}
+div#layer2{
+    position:absolute;
+    z-index: 2;
+    /* top and left spacing */
+    top:100px ;
+    left:90px;
+    
+    height: 200px;
+    width:400px;
+    background-color: green;
+    border:4px;
+    border-color:red;
+    border-style: solid;
+    text-align: center;
+}
+div#layer3{
+    position:absolute;
+    z-index: 4;
+    /* top and left spacing */
+    top:150px ;
+    left: 130px;
+    height: 200px;
+    width:400px;
+    background-color: green;
+    border:4px;
+    border-color:red;
+    border-style: solid;
+    text-align: center;
+
+}
