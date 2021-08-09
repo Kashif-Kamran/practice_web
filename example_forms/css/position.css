@@ -1,0 +1,34 @@
+.parent{
+    position:relative;
+    background-color: steelblue;
+    height: 150vh;
+}
+.child{
+    margin:0px;
+    border:0px;
+    padding:0px;
+    margin-left: auto;
+    max-width: 98%;
+    margin-right: auto;
+}
+
+.child1{
+    position:sticky;
+    top:0%;
+    background-color:green;
+
+}
+.child2{
+    position: sticky;
+    background-color: orange;
+}
+.child3{
+    position: sticky;
+    top:15px;
+    background-color:red;
+}
+p{
+    margin-top: 0px;
+    margin-bottom:0px;
+    font-size: 30px;
+}
