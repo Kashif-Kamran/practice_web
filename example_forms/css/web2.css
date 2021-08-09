@@ -1,0 +1,62 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-family:monospace;
+}
+.background{
+    background-image: linear-gradient(to bottom, lightgreen,yellow);
+    position: relative;
+    width: 100vw;
+}
+header{
+    position: relative;
+    background-color: lightgoldenrodyellow;
+    width:80vw;
+    height:60vh;
+    border-radius: 5vw;
+    margin-left: auto;
+    margin-right:auto;
+}
+header h1{
+    position: absolute;
+    left:50%;
+    top: 20%;
+    transform: translateX(-50%);
+    font-size: 7vh;
+}
+header p#writer{
+    position: relative;
+    top:40%;
+    left:10%;
+    font-size: 3vh;
+    font-weight: bold;
+}
+.mainList{
+   list-style-position: inside;
+}
+ul .domainList{
+    list-style-position: inside;
+    list-style-type: square;
+    text-indent: 5%;
+    font-size: initial;
+}
+div.writer_details
+{
+    position: absolute;
+    top:50%;
+    left:12%;
+    font-size: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vh;
+    padding-top:1vh;
+    padding-bottom:1vh;
+    border-radius: 1vh;
+}
+div.writer_details:hover{
+    background-image: linear-gradient(to right top, lightgreen,lightyellow);
+}
+nav{
+    position: absolute;
+    right: 10%;
+    top:40%;
+}
