@@ -1,21 +1,29 @@
+:root{
+    --darkblue:rgb(1, 3, 68);
+    --darkred:rgb(80, 2, 2);
+    --darkgreen:rgb(2, 55, 6);
+    --backimg:linear-gradient(to bottom, var(--darkblue),var(--darkred));
+}
 *{
     padding:0px;
     margin: 0px;
     font-family:monospace;
 }
 .background{
-    background-image: linear-gradient(to bottom, lightgreen,yellow);
-    position: relative;
+    background-image:var(--backimg);
+    position: absolute;
+    height: 200%;
     width: 100vw;
 }
 header{
     position: relative;
-    background-color: lightgoldenrodyellow;
+    background-color: transparent;
     width:80vw;
     height:60vh;
     border-radius: 5vw;
     margin-left: auto;
     margin-right:auto;
+    box-shadow: 5px 5px 5px black;
 }
 header h1{
     position: absolute;
@@ -61,10 +69,10 @@ nav{
     right: 10%;
     top:30%;
     background-color: transparent;
-    border:2px white solid;
     padding:1vh 2vw 4vh 2vw;
     align-items: center;
     border-radius: 2vw;
+    box-shadow:5px 5px 5px black;
 }
 ul{
     list-style: none;
@@ -76,19 +84,32 @@ nav li{
     padding-left: 1vw;
     padding-right: 1vw;
     text-align: center;
-    border-radius: 1vw;
-    border: 1px solid black ;
+    border-radius: 2vw;
+    font-weight: 700rgb(1, 3, 68),rgb(80, 2, 2);
+    font-size: 130%;
+    box-shadow: 5px 5px 5px black;
 }
 nav li:hover{
-    background-color: turquoise;
+    box-shadow: -3px -3px 4px black;
     cursor: pointer;
 }
 header input[type="search"]{
     position: absolute;
+    background-color: transparent;
+    box-shadow: 5px 5px 5px black;
+    height: 3vh;
+    border:1px;
+    border-color:var(--darkblue);
+    width: 15vw;
     right:10vw;
     top: 5vh;
-    border-color: wheat;
+    border:0%;
     border-radius: 1vw;
+    color: white;
+}
+header input[type="search"]:hover
+{
+    box-shadow: -3px -3px 3px black;
 }
 li a{
     text-decoration: none;
