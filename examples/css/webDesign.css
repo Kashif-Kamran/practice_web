@@ -11,7 +11,6 @@
 .backgroud{
     position: relative;
     background-color: var(--grey);
-
 }
 header{
     margin-left: auto;
@@ -105,5 +104,10 @@ section p{
     padding-top: 5vh;
     padding-left:2vw;
     padding-right: 2vw;
-
+}
+footer{
+    position: static;
+    height:5vh;
+    margin-top:20vh;
+    border:2px solid var(--aquaGreen);   
 }
